@@ -1,0 +1,5 @@
+from sort_algorithms.bubble_sort import bubble_sort
+from sort_algorithms.insertion_sort import insertion_sort
+from sort_algorithms.merge_sort import merge_sort
+from sort_algorithms.quick_sort import quick_sort
+from sort_algorithms.tim_sort import tim_sort

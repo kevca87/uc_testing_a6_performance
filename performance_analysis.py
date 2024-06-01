@@ -26,7 +26,7 @@ def get_code_to_execute(algorithm, input_list):
     return code_to_execute
 
 if __name__ == '__main__':
-    input_list = get_input_list(1000)
+    input_list = get_input_list(100)
     algorithm_list = get_algorithm_list()
     algorithm_performance = {}
     for algorithm in algorithm_list:
@@ -34,4 +34,4 @@ if __name__ == '__main__':
         time_ex = analyze_performance(code)
         algorithm_performance[algorithm] = time_ex
     algorithm_performance_df = pd.DataFrame(algorithm_performance)
-    algorithm_performance_df.to_csv('algorithm_performance.csv')
+    algorithm_performance_df.to_csv('algorithm_performance_100.csv')
